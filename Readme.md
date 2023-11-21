@@ -4,16 +4,12 @@ Download postgres using the link [Postgres](https://www.postgresql.org/download/
 
 <img src="Images/Website-to-download-Postgres.png" alt="Website-to-download-Postgres.png">
 
-![Website-to-download-postgres](Images/Website-to-download-Postgres.png)
-
 Ensure to add the directory of the postgres from your file explorer if you are using windows to your system path, so you could run postgres commands and SQL commands from your command line or terminal.
 After your installation, configure postgres to work, by creating your username and password during the installation process.
 Main Steps:
 1.	Open your terminal or command line if you are using windows.
 
 <img src="Images/Open-terminal-1.png" alt="Open-terminal-1.png">
-
-![Open-terminal](Images/Open-terminal-1.png)
 
 2.	Check which username is current logged in postgres, but first use the command below to log in to postgres. 
 `psql -U postgres -h localhost`
